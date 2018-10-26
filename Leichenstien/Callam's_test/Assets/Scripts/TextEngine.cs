@@ -34,5 +34,6 @@ public class TextEngine : MonoBehaviour
         currScene = Chapter[sceneIndex];
         currImage.sprite = currScene.backDrop;
         currText.text = currScene.textFeild;
-	}
+        lastHoveredLink = null;
+}
 }
